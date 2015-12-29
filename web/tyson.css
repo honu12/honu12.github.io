@@ -1,0 +1,67 @@
+html {
+  background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhrc38B3jWjlThuer2qRnSsvf_moBDDwql-4FsIG7oPewQzhxt) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {}
+
+.logo {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.nav a {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  color: #B2B2B2;
+  width: 302px;
+}
+
+section {
+  text-align: left;
+  background: #303030;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  background: #00FF99;
+}
+
+a {
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00A0C6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  text-align: center;
+  width: 282px;
+}
+
+h2 {
+  text-align: center;
+  background: #00FF99;
+}

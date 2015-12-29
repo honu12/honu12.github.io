@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ginger Spice</title>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <style scoped>
+    body {
+      background-color: #B5E7F7;
+      max-width: 500px;
+      padding: 10px 0px 10px 0px;
+      margin: auto;
+     }
+
+     .nav img {
+       width: 75px;
+       height: 75px;
+       border-radius: 50%;
+     }
+
+    .nav a {
+      color: blue;
+      font-size: 11px;
+      font-weight: bold;
+      padding: 14px 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+     }
+
+    .nav li {
+      display: inline;
+    }
+
+    h2 {
+      font-family: Lobster, Monospace;
+    }
+
+    .thick-blue-border {
+      border-color: white;
+      border-width: 3px;
+      border-style: solid;
+      border-radius: 50%;
+    }
+
+    img {
+      margin-bottom: 10px;
+      width: 100%;
+      border-color: white;
+      border-width: 3px;
+      border-style: solid;
+    }
+
+    .sign-up {
+      padding: 5px;
+    }
+  </style>
+
+  <!-- Navaigation -->
+  <div class="container-fluid">
+    <div class="nav">
+      <ul>
+        <li><img alt="logo" src="http://honu.net46.net/turtle.jpg">
+          <li><a href="http://honu.net46.net/index.html">Home </a></li>
+          <li><a href="http://www.google.com" target="_blank">Search </a></li>
+          <li><a href="mailto:honu.menehune@gmail.com">Contact</a>
+      </ul>
+    </div>
+
+    <!-- Heading -->
+    <div class="row">
+      <div class="col-xs-8">
+        <h2 class="text-primary text-center"><a href="http://www.biography.com/people/geri-halliwell-20868605">Ginger Spice</a></h2></div>
+      <div class="col-xs-4">
+        <a href="https://instagram.com/gerihalliwelluk/?hl=en"><img class="img-responsive thick-blue-border" alt="thumbnail" src="http://images.fanpop.com/images/image_uploads/Ginger-Spice-spice-girls-49319_511_639.jpg"></a>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <img class="img-responsive" alt="Photo 1" src="http://s3-ec.buzzfed.com/static/enhanced/webdr05/2013/4/24/11/enhanced-buzz-9321-1366818237-1.jpg">
+    <img class="img-responsive" alt="Photo 2" src="http://mynameisblonde.files.wordpress.com/2012/08/geri-halliwell.jpg">
+    <img class="img-responsive" alt="Photo 3" src="https://metrouk2.files.wordpress.com/2015/05/ad_169604213-e1432020826424.jpg">
+    <div class="row">
+      <div class="col-xs-4">
+        <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button>
+      </div>
+      <div class="col-xs-4">
+
+        <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button>
+
+      </div>
+      <div class="col-xs-4">
+        <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i> Delete</button>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Facts -->
+    <h4><span class="text-danger">Interesting Facts</span></h4>
+    <ul>
+      <li>Geri almost wasn't a Spice Girl</li>
+      <li>The group was called Touch at first</li>
+      <li>Geri was the first to leave the group</li>
+      <li>Geri's Union Jack dress made a fortune at auction</li>
+      <li>Victoria and Emma are godmother's to Geri's daughter</li>
+      <li>The group never won a Grammy</li>
+    </ul>
+    <hr>
+
+    <!-- Survey -->
+    <div class="survey">
+      <h4><span class="text-danger">Take a quick survey</span></h4>
+      <form action="/submit-photo">
+        <h5>Is Ginger Spice</h5>
+        <div class="row">
+          <div class="col-xs-6">
+            <label>
+              <input type="radio" name="hot-not"> Hot</label>
+          </div>
+          <div class="col-xs-6">
+            <label>
+              <input type="radio" name="hot-not"> Not</label>
+          </div>
+        </div>
+        <h5>And your personality is most like...</h5>
+        <div class="row">
+          <div class="col-xs-4">
+            <label>
+              <input type="checkbox" name="personality"> Scary</label>
+          </div>
+          <div class="col-xs-4">
+            <label>
+              <input type="checkbox" name="personality"> Sporty</label>
+          </div>
+          <div class="col-xs-4">
+            <label>
+              <input type="checkbox" name="personality"> Baby</label>
+          </div>
+          <div class="col-xs-4">
+            <label>
+              <input type="checkbox" name="personality"> Ginger</label>
+          </div>
+          <div class="col-xs-4">
+            <label>
+              <input type="checkbox" name="personality"> Posh</label>
+          </div>
+        </div>
+        <h5>Submit your own photo</h5>
+
+        <div class="row">
+          <div class="col-xs-7">
+            <input type="text" class="form-control" placeholder="Submit photo URL" required>
+          </div>
+          <div class="col-xs-5">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <hr>
+
+    <!-- Newsletter -->
+    <div class="sign-up">
+      <h4><span class="text-danger">Newsletter</span></h4>
+
+      <!-- Begin MailChimp Signup Form -->
+
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+      <style type="text/css">
+        #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      </style>
+      <div id="mc_embed_signup">
+        <form action="//webng.us9.list-manage.com/subscribe/post?u=b7a0b95c68bd69bb396c75a15&amp;id=21779ae3a8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <h2>Subscribe to our mailing list</h2>
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+              </label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-FNAME">First Name </label>
+              <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-LNAME">Last Name </label>
+              <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;">
+              <input type="text" name="b_b7a0b95c68bd69bb396c75a15_21779ae3a8" tabindex="-1" value="">
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>
+        (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+      </script>
+      <!--End mc_embed_signup-->
+      <hr>
+
+      <!-- Navaigation -->
+      <div class="container-fluid">
+        <div class="nav">
+          <ul>
+            <li><img src="http://honu.net46.net/turtle.jpg" alt="logo">
+              <li><a href="http://honu.net46.net/index.html">Home </a></li>
+              <li><a href="http://www.google.com" target="_blank">Search </a></li>
+              <li><a href="mailto:honu.menehune@gmail.com">Contact</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

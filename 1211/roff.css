@@ -1,0 +1,69 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url('http://www.gotceleb.com/wp-content/uploads/celebrities/rosie-roff/dss-spain-magazine-march-april-2014/Rosie-Roff:-DSS-Spain-2014--02.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides {
+  background: url("http://img12.deviantart.net/aeab/i/2009/209/9/f/dungen_stock_by_elf5.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+  color: white;
+  font-size: 24px;
+}
+
+.neighborhood-guides p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 13px;
+}

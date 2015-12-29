@@ -1,0 +1,158 @@
+@import url(//fonts.googleapis.com/css?family=Cantarell);
+@import url(//fonts.googleapis.com/css?family=Lora);
+body {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-bottom: 5%;
+  background-image: url("http://justlearningman.files.wordpress.com/2007/11/portsmouth-at-dusk.jpg");
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 20px;
+}
+
+.nav img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.nav a {
+    color: green;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .nav li {
+    display: inline;
+  }
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: green;
+  font-family: 'Lora', serif;
+}
+
+p {
+  margin-top: 5px;
+}
+
+h2 {
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
+  padding: 10px 0;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 38px;
+  padding-top: 20px;
+}
+
+h3 {
+  color: grey;
+  padding: 20px 0 0 0;
+  text-align: center;
+  margin-bottom: 0;
+  border: none;
+  text-decoration: none;
+}
+
+img {
+  padding: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+a {
+  text-decoration: none;
+  color: royalblue;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: dimGray;
+}
+
+html {
+  text-align: center;
+  padding: 0;
+}
+
+section {
+  margin-bottom: -120px;
+  min-height: 100%;
+  position: relative;
+}
+
+hr {
+  border: 1px solid lightgrey;
+  margin: 20px 10% 0 10%;
+}
+
+ul img {
+  opacity: 1;
+  width: 220px;
+  height: 155px;
+  display: inline-block;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+ul li {
+  position: relative;
+  display: inline-block;
+}
+
+ul li:hover span {
+  opacity: 1;
+}
+
+span {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  width: 220px;
+  height: 155px;
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span h2 {
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  vertical-align: middle;
+  border: none;
+}
+
+a {
+  text-align: center;
+}
